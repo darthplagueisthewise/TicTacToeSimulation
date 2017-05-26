@@ -24,5 +24,8 @@ class GameSim
       }
     }
       
-    Space nextMove = bestMove(ValidMoves);
+    if (ValidMoves.length == 0)
+      System.out.println("It\'s a tie");
+    else
+      Space nextMove = bestMove(ValidMoves);
       
