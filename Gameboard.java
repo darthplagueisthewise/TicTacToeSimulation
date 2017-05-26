@@ -166,8 +166,10 @@ class Gameboard {
   
   public Space bestMove(List<Space> someList) {
     
+    // If only one spot available then go there as the only option
     if (someList.length == 1)
-      
+      return someList[0];
+    
     // Check if there are any empty spaces where cpu can win 
     for (Space spaces : someList) {
       if (goodMove(spaces,2))
