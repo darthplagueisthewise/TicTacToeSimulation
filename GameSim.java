@@ -18,7 +18,7 @@ class GameSim
     
     for (int i = 0; i < 3; i++) {
       for (int j = 0; j < 3; j++) {
-        if (Game_board.getBoard().Value == 0) {
+        if (Game_board.getBoard()[i][j].Value == 0) {
           ValidMoves.add(spot);
       }
   }
