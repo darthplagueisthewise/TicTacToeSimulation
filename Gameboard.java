@@ -1,8 +1,8 @@
 class Gameboard {
   
   private Space[][] Board;
-  public bool PlayerHasWon;
-  public bool CompHasWon;
+  public boolean PlayerHasWon;
+  public boolean CompHasWon;
 
   // Constructors
   public Gameboard()
@@ -34,4 +34,29 @@ class Gameboard {
     
     Board[x][y].Value = NewValue;
   }
+   
+  private static Boolean checkFarRight(int y){
+    if (Board[0][y] == 2 && Board[1][y] == 2)
+      return True;
+  }
+  
+  private Boolean canWin(Space) {
+    int x = Space.x_pos;
+    int y = Space.y_pos;
     
+    if (x == 2) {
+      if (checkFarRight(y))
+        return True;
+      else if (
+    }
+  public Space bestMove(List<Space> someList) {
+    for (Space spaces : someList) {
+      
+  
+  
+  
+  
+  
+  
+  
+  
