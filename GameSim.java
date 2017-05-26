@@ -24,7 +24,5 @@ class GameSim
       }
     }
       
-    for (Space spaces : ValidMoves)
-    {
+    Space nextMove = bestMove(ValidMoves);
       
-    }
