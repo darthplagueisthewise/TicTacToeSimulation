@@ -16,9 +16,15 @@ class GameSim
   {
     List<Space> ValidMoves = new List<Space>;
     
+    // Get Valid (empty) spaces on Board
     for (int i = 0; i < 3; i++) {
       for (int j = 0; j < 3; j++) {
         if (Game_board.getBoard()[i][j].Value == 0) {
           ValidMoves.add(spot);
       }
-  }
+    }
+      
+    for (Space spaces : ValidMoves)
+    {
+      
+    }
