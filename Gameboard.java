@@ -1,8 +1,8 @@
 class Gameboard {
   
   private Space[][] Board;
-  private bool PlayerHasWon;
-  private bool CompHasWon;
+  public bool PlayerHasWon;
+  public bool CompHasWon;
 
   // Constructors
   public Gameboard()
@@ -17,3 +17,21 @@ class Gameboard {
     PlayerHasWon = false;
     CompHasWon = false;
   }
+
+  // Getters & Setters
+  public Space[][] getBoard() {
+    return Board;
+  }
+  
+  public void setBoard(char, int x, int y) {
+    int NewValue; 
+    if (char == 'P') {
+      NewValue = 1;
+    }
+    else {
+      NewValue = 2;
+    }
+    
+    Board[x][y].Value = NewValue;
+  }
+    
