@@ -1,0 +1,52 @@
+
+
+Joshua
+Everly
+
+CSCI 444 Internship
+
+Bi-Weekly Log
+
+ 
+
+ 
+
+            At the time I am writing this I have now officially
+finished my first two weeks as a software intern at IWCO Direct. During those
+two weeks I have been learning about and working with IWCO Direct’s custom
+built service bus. During my time I have been tasked with gaining an
+understanding of the inner workings of the service bus and then translating
+that understanding into a document that outlines the code design so that new
+software engineer hires can read it and figure out what they’re working with quickly
+so that the training period can be reduced. Being able to read and understand
+the code for me was very beneficial because I was able to get a grasp on what code
+looks like in the industry and how I should strive to make my code better. Before
+I started the internship I was really worried that I wouldn’t know anything (because
+I have never worked with C# before) but actually most of the code that I work
+with in my job is relatively easy to understand and uses programming concepts
+that were introduced in our CSCI 301 course. 
+
+ 
+
+            Of course at this point in my interview, I haven’t done a
+whole lot, for the most part I am still learning about the many different
+aspects of service buses and service orientated architecture. One thing that I
+have been doing during my learning period at my internship (Actually an internship
+really is just one big learning period) is how different concepts like
+templates and inheritance are used in real world programs. Learning about these
+concepts in the classroom and then doing a lab or homework assignment on them
+is one thing but knowing when to use them, when not to use them, and how they
+can be helpful in programs that span hundreds of files and tens of thousands of
+lines of code is another thing.  
+
+ 
+
+            Now I just getting started learning how to code for WCF
+web services so that we [IWCO Direct] can implement new web services and those
+services will be able to communicate with our service bus (which is able to
+communicate with a client). Learning about these technologies that have not
+been introduced to me in the classroom is a great opportunity that I will take
+advantage of. In the coming I will probably continue to work with programing
+and setting up WCF web services and so you can expect to hear more about that
+in the future logs. 
+
