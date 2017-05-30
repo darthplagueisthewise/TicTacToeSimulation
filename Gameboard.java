@@ -34,7 +34,46 @@ class Gameboard {
     
     Board[x][y].Value = NewValue;
   }
-   
+  // end getters and setters
+  
+  
+  // BOARD CHECKS
+  
+  public void checkForWinner()
+  {
+    if (Board[0][0].Value == Board[1][0].Value == Board[2][0].Value) {
+      if (Board[0][0].Value == 1) {
+        PlayerHasWon = true;
+      }
+      else if (Board[0][0].Value == 2) {
+        CompHasWon = true;
+      }
+    }
+    
+    else if (Board[0][1].Value == Board[1][1].Value == Board[2][1].Value) {
+      if (Board[0][1].Value == 1) {
+        PlayerHasWon = true;
+      }
+      else if (Board[0][1].Value == 2) {
+        CompHasWon = true;
+    }
+      
+     else if (Board[0][2].Value == Board[1][2].Value == Board[2][2].Value) { 
+       if (Board[0][2].Value == 1) { 
+         PlayerHasWon = true;    
+       }      
+       else if (Board[0][2].Value == 2) {   
+         CompHasWon = true;  
+       }
+       
+    else if (Board[0][0].Value == Board[0][1].Value == Board[0][2].Value) {
+      if (Board[0][0].Value == 1) { 
+        PlayerHasWon = true;  
+      }  
+      else if (Board[0][0].Value == 2) {  
+        CompHasWon = true;  
+      }
+ // END OF CHECK FOR WINNER
   private static Boolean checkFarLeftUpper(int){
     
     if (Board[1][0] == int && Board[2][0] == int) 
